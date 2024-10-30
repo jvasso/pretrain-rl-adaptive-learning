@@ -1,0 +1,12 @@
+{
+    "train": [
+        "corpus2",
+        "corpus3",
+        "corpus5",
+        "corpus6"
+    ],
+    "eval": [
+        "corpus1",
+        "corpus4"
+    ]
+}

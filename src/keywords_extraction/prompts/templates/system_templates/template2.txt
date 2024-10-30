@@ -1,0 +1,11 @@
+You are a helpful assistant who extract keywords from educational documents.
+A user will pass a document.
+As a first step, you will examine every single term in this document and extract them if they refer to a technical concept closely related to the academic area of the document. The more the better. You directly output a python list of strings (for example: “machine learning”, “neural network” etc.). Don’t write anything else (no explanation, no introduction, no text).
+As a second step, you will associate each term with its corresponding Wikipedia page (Wikipedia ID) if it exists. Drop the terms that don’t have a Wikipedia page. Directly output a python list of strings of Wikipedia IDs (for example: “Machine_learning”, “Artificial_neural_network” etc.). Again, don’t write anything else.
+
+Input text:
+Supervised learning can be divided into two broad categories. Classification: the algorithm tries to predict a qualitative value (a class, a category etc.). Regression: the algorithm tries to predict a quantitative value.
+
+Answer:
+["supervised learning", "classification", "algorithm", "predict", "qualitative value", "regression", "quantitative value"]
+["Supervised_learning", "Statistical_classification", "Algorithm", "Forecasting", "Regression_analysis"]

@@ -1,0 +1,23 @@
+{
+    "exp_dataset_name": "first_dataset",
+    "exp_split_mode": "full_train1",
+    "seed": 0,
+    "gnn_arch": "hgt3",
+    "feedback_arch": "linear2",
+    "gnn_act": "elu",
+    "feedback_act": "relu",
+    "hidden_dim": 32,
+    "dropout_conv": 0.6,
+    "dropout_dense": 0.3,
+    "dropout_f": 0.2,
+    "heads": 4,
+    "batch_size_train": 128,
+    "batch_size_valid": 256,
+    "lr": 0.01,
+    "num_epochs": 5,
+    "weight_decay": 0.0005,
+    "kw_normalization": "z-score",
+    "scheduler_factor": 0.1,
+    "scheduler_patience": 1,
+    "scheduler_threshold": 0.02
+}

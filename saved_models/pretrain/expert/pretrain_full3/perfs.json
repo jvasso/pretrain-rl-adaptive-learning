@@ -1,0 +1,11 @@
+{
+    "train/loss": 2.727319965881103,
+    "train/acc": 0.10921954590205035,
+    "train/precision_macro": 0.09722531768840445,
+    "train/recall_macro": 0.08953563208361855,
+    "train/f1_macro": 0.0876085562057387,
+    "train/f1_weighted": 0.10585748651599827,
+    "train/f1_cls0": 0.01855533465871438,
+    "train/f1_cls1": 0.035283194057567316,
+    "train/f1_cls2": 0.07144120247568525,
+    "train/right_reco_prob": 

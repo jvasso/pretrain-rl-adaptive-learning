@@ -1,0 +1,7 @@
+{
+    "train_loss": null,
+    "train_acc": 0.5070082586409854,
+    "train_precision": 0.9324787566513326,
+    "train_recall": 0.5070082586409854,
+    "train_f1": 0.6303663414923943
+}

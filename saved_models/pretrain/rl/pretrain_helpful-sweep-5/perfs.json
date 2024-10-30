@@ -1,0 +1,14 @@
+{
+    "duration": "5652.79s",
+    "train_time/model": "4923.24s",
+    "test_step": 32732,
+    "test_episode": 1520,
+    "test_time": "365.79s",
+    "test_speed": "89.48 step/s",
+    "best_reward": 10.7,
+    "best_result": "10.70 \u00b1 2.95",
+    "train_step": 32613,
+    "train_episode": 1500,
+    "train_time/collector": "363.77s",
+    "train_speed": "6.17 step/s"
+}

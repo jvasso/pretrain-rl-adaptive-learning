@@ -1,0 +1,247 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Python: Current File",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${file}",
+        //     "console": "integratedTerminal",
+        //     "justMyCode": true
+        // },
+        {
+            "name": "Current File as Module",
+            "type": "python",
+            "request": "launch",
+            "module": "src.${fileBasenameNoExtension}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Current Test File as Module",
+            "type": "python",
+            "request": "launch",
+            "module": "src.tests.${fileBasenameNoExtension}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "build word embeddings files",
+            "type": "python",
+            "request": "launch",
+            "module": "src.extract_corpus_data.build_word_embedding_files",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "build kc files ",
+            "type": "python",
+            "request": "launch",
+            "module": "src.extract_corpus_data.build_kc_files",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: main module",
+            "type": "python",
+            "request": "launch",
+            "module": "src.main",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "KW extraction - human",
+            "type": "python",
+            "request": "launch",
+            "module":"src.keywords_extraction.test_human_mode",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "Extract corpus - current",
+            "type": "python",
+            "request": "launch",
+            "module":"src.extract_corpus_data.${fileBasenameNoExtension}",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "Student simul - current",
+            "type": "python",
+            "request": "launch",
+            "module":"src.student_simulation.${fileBasenameNoExtension}",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "CorpusGraph",
+            "type": "python",
+            "request": "launch",
+            "module":"src.student_simulation.corpus_graph",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "Population",
+            "type": "python",
+            "request": "launch",
+            "module":"src.student_simulation.population",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "Student",
+            "type": "python",
+            "request": "launch",
+            "module":"src.student_simulation.student",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "adaptive learning env",
+            "type": "python",
+            "request": "launch",
+            "module":"src.rl_modules.env.adaptive_learning_env",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "CorpusGraphDataset",
+            "type": "python",
+            "request": "launch",
+            "module":"src.student_simulation.corpus_graph_dataset",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "Test OpenAI KW extraction",
+            "type": "python",
+            "request": "launch",
+            "module":"src.keywords_extraction.test_openai_kw_extraction",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "Extract all keywords",
+            "type": "python",
+            "request": "launch",
+            "module":"src.keywords_extraction.extract_all_keywords",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "output parser",
+            "type": "python",
+            "request": "launch",
+            "module":"src.keywords_extraction.classes.custom_output_parser",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "bootstrap",
+            "type": "python",
+            "request": "launch",
+            "module":"src.bootstrap.plot_bootstrap",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "sl_train",
+            "type": "python",
+            "request": "launch",
+            "module":"src.sl_train",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "rl_train",
+            "type": "python",
+            "request": "launch",
+            "module":"src.rl_train",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "sl_pretrain",
+            "type": "python",
+            "request": "launch",
+            "module":"src.sl_pretrain",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "rl_pretrain",
+            "type": "python",
+            "request": "launch",
+            "module":"src.rl_pretrain",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "rl_pretrain generate r",
+            "type": "python",
+            "request": "launch",
+            "module":"src.rl_pretrain",
+            "args": ["generate", "r"],
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "rl_pretrain generate jz",
+            "type": "python",
+            "request": "launch",
+            "args": ["generate", "jz"],
+            "module":"src.rl_pretrain",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "rl_pretrain config0",
+            "type": "python",
+            "request": "launch",
+            "module": "src.rl_pretrain",
+            "args": ["config0", "group_test"],
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "rl_finetune",
+            "type": "python",
+            "request": "launch",
+            "module":"src.rl_finetune",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "baseline_irt",
+            "type": "python",
+            "request": "launch",
+            "module":"src.baseline_irt.main",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "rl_finetune_bassen",
+            "type": "python",
+            "request": "launch",
+            "module":"src.rl_finetune_bassen",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "compute_stats",
+            "type": "python",
+            "request": "launch",
+            "module":"src.analyze_results.compute_stats",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "plot_learning_curves",
+            "type": "python",
+            "request": "launch",
+            "module":"src.analyze_results.plot_learning_curves",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        }
+    ]
+}

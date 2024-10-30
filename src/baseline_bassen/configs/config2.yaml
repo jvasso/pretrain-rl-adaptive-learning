@@ -1,0 +1,2 @@
+hidden_sizes_actor: [32,32]
+hidden_sizes_critic: [32,32]

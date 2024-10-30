@@ -1,0 +1,19 @@
+I want you to extract keywords from document.
+As a first step, you examine every single term/key phrase in the document and extract them if they refer to a technical concept closely related to the academic area of the document. You output them as a python list of strings (for example: “machine learning”, “neural network” etc.). Don't write anything else.
+As a second step, you associate each term with its corresponding Wikipedia page (Wikipedia ID) if it exists. Drop the terms that don’t have a Wikipedia page. Please directly output a python list of strings of Wikipedia IDs (for example: “Machine_learning”, “Artificial_neural_network” etc.). Again, don't write anything else.
+As a third step, check that each ID refers to a real wikipedia page by searching for it (example: "https://en.wikipedia.org/wiki/Artificial_neural_network") and output the final list.
+
+Here is an example:
+
+Input text:
+Supervised learning can be divided into two broad categories. Classification: the algorithm tries to predict a qualitative value (a class, a category etc.). Regression: the algorithm tries to predict a quantitative value.
+
+Answer:
+["supervised learning", "classification", "algorithm", "predict", "qualitative value", "regression", "quantitative value"]
+["Supervised_learning", "Statistical_classification", "Algorithm", "Forecasting", "Regression_analysis"]
+["Supervised_learning", "Statistical_classification", "Algorithm", "Forecasting", "Regression_analysis"]
+
+Input text:
+{document}
+
+Answer:

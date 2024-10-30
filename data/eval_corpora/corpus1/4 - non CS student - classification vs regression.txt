@@ -1,0 +1,20 @@
+﻿### Understanding Classification and Regression
+
+
+Now that you're familiar with the Machine Learning pipeline through the example of a weather forecasting app, let's dive into two specific types of tasks that machine learning models can perform: classification and regression.
+
+
+Imagine you have a bag of different fruits, and your task is to sort them. If you were asked to separate the fruits into categories based on type—apples, bananas, oranges—you're essentially classifying them. Classification in machine learning works similarly; it's about categorizing or classifying data. When our weather app predicts if it's going to rain tomorrow (yes or no), it's using classification. It sorts the data into distinct categories, like putting apples in one basket and oranges in another.
+
+
+On the other hand, if you were asked to weigh each fruit and give the exact weight, you're dealing with specific numbers. This is what regression does in machine learning. Instead of categories, regression deals with quantities. So, if our weather app were predicting the exact amount of rainfall for the next day in millimeters, it would be performing a regression task. It's not just sorting into groups; it's calculating a precise value, like determining the weight of each apple.
+
+
+Both classification and regression are methods for making predictions using machine learning, but they approach the problem differently:
+
+
+- Classification is about predicting which category something belongs to. Just like sorting fruits by type, it's either one or the other—like predicting 'rain' or 'no rain'.
+- Regression is about predicting a specific, continuous quantity. Like measuring the weight of fruits, it's about predicting a number—like how many millimeters of rain will fall.
+
+
+In summary, when we teach a machine to predict categories, we use classification. When we teach it to predict a quantity, we use regression. Both are powerful tools in machine learning, and which one we use depends on whether we're sorting data into baskets or measuring it with a scale.

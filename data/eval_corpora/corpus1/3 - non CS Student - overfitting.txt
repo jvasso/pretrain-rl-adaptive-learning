@@ -1,0 +1,12 @@
+﻿Overfitting is like a weather forecasting app that gets really good at predicting the weather for the past week because it's seen it all before, but then struggles when it tries to guess next week's weather. Imagine if you studied really hard for a history test by memorizing all the answers from past exams without really understanding why events happened. You'd probably do great if the teacher asked the same questions again, but if they asked something different, you'd be stuck.
+
+
+With our weather app, if it learns too much from the specific days it's already seen, it might start thinking that just because it rained every time a certain kind of bird flew by last month, that will always be a sign it's going to rain. That's overfitting. It's when the app is so focused on the little details of the past data that it misses the big patterns that apply to the future.
+
+
+So, just like you need to understand the big historical events and not just memorize dates to do well on all history tests, the weather app needs to learn the general patterns of weather, not just memorize what happened on specific days. If it overfits, it's like being the student who can only ace the test if they've seen the questions before.
+
+
+To detect overfitting, the data set is usually randomly divided into training and test sets, with a ratio of 80%-20%.
+This makes it possible to differentiate between the data that will be used to train the app and that which will be used to evaluate it.
+After the training stage, we measure the performance of the model on both training and test sets. If the performances are not equivalent (good performance on the training set but poor performance on the validation set), this means that the model has learned to recognize patterns that are specific to the training set and won’t be able to make the right predictions in the general case: this is typical of an overfitting situation. One solution that is commonly used is to train a simpler / more regular model.

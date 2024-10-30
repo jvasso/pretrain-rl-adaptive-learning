@@ -1,0 +1,2 @@
+hidden_sizes_actor: [64,64]
+hidden_sizes_critic: [64,64]

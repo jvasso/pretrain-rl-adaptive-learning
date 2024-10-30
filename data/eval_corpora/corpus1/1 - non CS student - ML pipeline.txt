@@ -1,0 +1,20 @@
+﻿In this document, we will explain the Machine Learning pipeline through the example of a weather forecasting app.
+
+
+### Data Collection
+Imagine you're trying to predict if it's going to rain tomorrow. First, you'd look at past weather conditions—did it rain when it was cold and humid, or perhaps when it was hot and dry? By collecting historical data on temperature, humidity, and whether or not it rained the next day, we're essentially giving the machine a memory. This past data serves as the experience the machine will draw upon to make future predictions.
+
+
+### Model Selection
+Once we have our data, we need to choose a way for the machine to process it—a model. This is akin to deciding on a method to solve a math problem; some methods are more efficient or suitable for certain types of problems. For predicting rain, we might choose a straightforward model like a decision tree, which makes decisions by asking a series of questions based on the data. The model is our strategy for turning past experience into future predictions.
+
+
+### Training
+Now comes the learning part. We feed the historical weather data into the chosen model. As it goes through this data, the machine starts recognizing patterns. For instance, it learns that a combination of low temperature and high humidity usually means it will rain the next day. It's like repeatedly practicing a skill until you get good at it; the machine iteratively adjusts its internal parameters to get better at making accurate predictions.
+
+
+### Evaluation
+Finally, we need to test how well the machine has learned. To do this, we give it new weather data it hasn't seen before and see how accurately it predicts rain for the next day. This is the machine's final exam, so to speak. We're checking if the patterns it learned from the training data are actually useful for making predictions about new, unseen data.
+
+
+In essence, the machine learns from past weather data, uses a chosen strategy or model to make sense of it, practices this strategy during training, and then we test it to ensure it has learned effectively.

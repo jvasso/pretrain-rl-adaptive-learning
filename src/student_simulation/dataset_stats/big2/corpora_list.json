@@ -1,0 +1,20 @@
+{
+    "train": [
+        "corpus1",
+        "corpus3",
+        "corpus4",
+        "corpus6",
+        "Artificial_Intelligence",
+        "Natural_Language_Processing_(NLP)_Zero_to_Hero",
+        "Building_recommendation_systems_with_TensorFlow",
+        "3Blue1Brown-_Calculus",
+        "Statistics"
+    ],
+    "eval": [
+        "corpus2",
+        "corpus5",
+        "Deep_Learning_Fundamentals_-_Intro_to_Neural_Networks",
+        "ML_Zero_to_Hero",
+        "Calculus"
+    ]
+}
